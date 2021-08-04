@@ -39,9 +39,15 @@ In order to evaluate your work, we would like to be able to consume it in a brow
 
 You are more than welcome to deploy to netlify, vercel, or other static hosting of your choice. The list of available adapters are listed [here](https://github.com/sveltejs/kit/tree/master/packages). 
 
+## Completing the Project
+- Please fork this repository, don't clone. 
+- When you have completed your work, send an email to your coordinator with a link to the repository. 
+- We will schedule a code review as soon as we are able. 
+- Please be sure to include a link to the deployed site along with the link to your completed repository.  
+
 ## Developing
 
-Once you've cloned this project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
+Once you've forked this project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
 
 ```bash
 npm run dev
