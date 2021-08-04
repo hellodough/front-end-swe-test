@@ -1,0 +1,1 @@
+// `fetch` is available here, should you want to use it. Check the readme for the url to fetch posts.
