@@ -1,5 +1,5 @@
 {
-	"name": "~TODO~",
+	"name": "anna-take-home-teset",
 	"version": "0.0.1",
 	"scripts": {
 		"dev": "svelte-kit dev",
