@@ -9,8 +9,7 @@
 	</div>
 </header>
 
-<!-- Page content -->
-<a name="top" />
+<a name="top" tabindex="-1" href="#" />
 <div class="lg:px-16">
 	<slot />
 	<a
