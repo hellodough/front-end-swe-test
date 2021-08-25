@@ -1,5 +1,4 @@
 <script context="module">
-	
 	/**
 	 * @type {import('@sveltejs/kit').Load}
 	 */
@@ -15,14 +14,20 @@
 
 <script>
 	import { fetchPost } from '$lib/content/post';
-	import ArticleCard from '../../components/articleCard.svelte';
+	import ArticleCard from '../../components/article-card.svelte';
+	import BackArrowIcon from '../../components/icons/back-arrow.svelte';
+
 	export let article;
 </script>
 
 <svelte:head>
-	<title>slug page</title>
+	<title>{article.title.rendered}</title>
 </svelte:head>
 <div>
-	Testing this page works
+	<a href="/" class="text-indigo-500">
+		<div class="flex gap-x-1">
+			<span class="w-4"><BackArrowIcon /></span> <span>Go back</span>
+		</div>
+	</a>
 	<ArticleCard articleContent={article} text={article.content.rendered} preview={false} />
 </div>
