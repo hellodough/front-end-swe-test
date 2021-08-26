@@ -7,10 +7,10 @@ const config = {
 		// hydrate the <div id="svelte"> element in src/app.html
 		target: '#svelte',
 		adapter: static_adapter(),
-		paths: {
-			base: '/hellodough/front-end-swe-test',
-			assets: '/hellodough/front-end-swe-test'
-		},
+		// paths: {
+		// 	base: '/front-end-swe-test',
+		// 	assets: 'http://www.annado.net/front-end-swe-test'
+		// },
 	},
 	preprocess: [
 		preprocess({

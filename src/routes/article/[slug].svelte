@@ -25,7 +25,7 @@
 	<title>{article.title.rendered}</title>
 </svelte:head>
 <div>
-	<a href="{base}/" class="text-indigo-500">
+	<a href="/" class="text-indigo-500">
 		<div class="flex gap-x-1">
 			<span class="w-4"><BackArrowIcon /></span> <span>Go back</span>
 		</div>
