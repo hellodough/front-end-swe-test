@@ -13,6 +13,7 @@
 </script>
 
 <script>
+	import { base } from '$app/paths';
 	import { fetchPost } from '$lib/content/post';
 	import ArticleCard from '../../components/article-card.svelte';
 	import BackArrowIcon from '../../components/icons/back-arrow.svelte';
@@ -24,7 +25,7 @@
 	<title>{article.title.rendered}</title>
 </svelte:head>
 <div>
-	<a href="/" class="text-indigo-500">
+	<a href="{base}/" class="text-indigo-500">
 		<div class="flex gap-x-1">
 			<span class="w-4"><BackArrowIcon /></span> <span>Go back</span>
 		</div>
