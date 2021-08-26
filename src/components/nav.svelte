@@ -1,5 +1,6 @@
 <script>
 	import CodeIcon from './icons/code.svelte';
+	import { base } from '$app/paths';
 </script>
 
 <nav class="flex items-center text-base justify-center text-indigo">

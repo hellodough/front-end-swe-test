@@ -13,6 +13,7 @@
 </script>
 
 <script>
+	import { base } from '$app/paths';
 	import { fetchPost } from '$lib/content/post';
 	import ArticleCard from '../../components/article-card.svelte';
 	import BackArrowIcon from '../../components/icons/back-arrow.svelte';
