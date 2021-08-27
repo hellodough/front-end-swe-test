@@ -3,8 +3,7 @@
 	"version": "0.0.1",
 	"scripts": {
 		"dev": "svelte-kit dev",
-		"build": "npm run rm-build && svelte-kit build",
-		"rm-build": "rd /s /q build",
+		"build": "rm -rf build && svelte-kit build && touch .svelte-kit/static/build/.nojekyll",
 		"preview": "svelte-kit preview",
 		"lint": "prettier --check --plugin-search-dir=. . && eslint --ignore-path .gitignore .",
 		"format": "prettier --write --plugin-search-dir=. .",
