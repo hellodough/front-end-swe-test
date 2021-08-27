@@ -8,7 +8,7 @@ const template = ({ head, body }) => "<!DOCTYPE html>\n<html lang=\"en\">\n\t<he
 
 let options = null;
 
-const default_settings = { paths: {"base":"","assets":""} };
+const default_settings = { paths: {"base":"/front-end-swe-test","assets":"http://www.annado.net/front-end-swe-test"} };
 
 // allow paths to be overridden in svelte-kit preview
 // and in prerendering
@@ -22,9 +22,9 @@ export function init(settings = default_settings) {
 		amp: false,
 		dev: false,
 		entry: {
-			file: assets + "/_app/start-f8b823be.js",
+			file: assets + "/_app/start-c0f99d71.js",
 			css: [assets + "/_app/assets/start-464e9d0a.css"],
-			js: [assets + "/_app/start-f8b823be.js",assets + "/_app/chunks/vendor-271f82b2.js"]
+			js: [assets + "/_app/start-c0f99d71.js",assets + "/_app/chunks/vendor-271f82b2.js"]
 		},
 		fetched: undefined,
 		floc: false,
